@@ -1,67 +1,125 @@
+html,body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x:hidden ;
+    overflow: scroll;
+    font-family:"微软雅黑",Arial;
+    -webkit-overflow-scrolling : touch;
+  }
+  
+  *{
+    padding:0;
+    margin:0;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  ul,ol,li{
+    list-style: none;
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+    outline: none;
+  }
+  b,strong{
+    font-weight: normal;
+  }
+  i,em{
+    font-style: normal;
+  }
+  h1,h2,h3,h4,h5{
+    font-weight: normal;
+  }
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  a,img,button,input,textarea,div,ul,ol,li{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  }
+  input,textarea,select{
+    -webkit-appearance: none;
+    background: none;
+  }
+
 #dh{
-    width:1200px;
-    height:30px;
-    border:1px solid red;
+    width:95%;
+    height:1rem;
+    border:0.01rem solid red;
     /* position: relative; */
     /* margin:10px 0px; */
     text-align: center;
-    margin:0px auto;
+    margin:0.2rem auto;
 }
 #ml{
-    width:200px;
-    height:30px;
-    border:0px solid white;
+    width:20%;
+    height:100%;
+    border:0rem solid white;
     float:left;
     background:blue;
 }
 #fl{
-    width: 1000px;
-    height:30px;
-    border:0px solid white;
+    width: 80%;
+    height:100%;
+    border:0rem solid white;
     float:right;
     background:green;
 }
 #AA{
-    width:1200px;
-    height:235px;
-    border:1px solid rgb(140, 0, 255);
-    margin:10px auto;
+    width:95%;
+    height:5rem;
+    border:0.01rem solid rgb(140, 0, 255);
+    margin:0.1rem auto;
     
 }
 .bt{
-    display:block;
-    font-size: 15px;
+    width:100%;
+    height:1.5rem;
     text-align:center;
+    font-size: 0.02rem;
     color:blue;
-    background: greenyellow;
-    height:25px;
-    width:auto;
+    background: rgb(204, 127, 185);
+    margin:0.1rem auto;
+    line-height:1.5rem;
 }
 #AA div{
     text-align:center;
-    line-height: 180px;
+    line-height: 3.08rem;
 }
 #AA .zm{
-    width:400px;
-    height:180px;
-    border:0px solid blue;
+    width:40%;
+    height:3.08rem;
+    border:0rem solid blue;
     float:left;
     background:red;
-    padding:5px 0px;
+    padding:0.05rem 0rem;
+    font-size:0.3rem;
 }
 #AA .zj{
-    width:300px;
-    height:180px;
-    border:1px solid white;
+    width:30%;
+    height:3.08rem;
+    border:0.01rem solid white;
     float:left;
     background:green;
-    padding:5px 0px;
+    padding:0.05rem 0rem;
+    font-size:0.3rem;
 }
 #AA .ym{
-    width:498px;
-    height:180px;
-    border:0px;
+    width:29.6%;
+    height:3.08rem;
+    border:0rem;
     background:greenyellow;
     float:left;
-    padding:5px 0px;
+    padding:0.05rem 0rem;
+    font-size:0.3rem;
+}
+.set-banner-mask{
+    width:95%;
+    height:15rem;
+    background:red;
+    margin:0.5rem auto;
 }
