@@ -54,6 +54,7 @@ html,body{
     /* margin:10px 0px; */
     text-align: center;
     margin:0.2rem auto;
+    box-sizing:border-box;
 }
 #ml{
     width:20%;
@@ -74,7 +75,7 @@ html,body{
     height:5rem;
     border:0.01rem solid rgb(140, 0, 255);
     margin:0.1rem auto;
-    
+    box-sizing:border-box;
 }
 .bt{
     width:100%;
